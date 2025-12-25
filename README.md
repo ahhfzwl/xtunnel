@@ -1,8 +1,8 @@
-若Cloudflare的SSL设置为完全，则服务器命令为：
+若Cloudflare域名SSL为完全，则服务器执行：
 ```
 ./xtunnel -l wss://:443
 ```
-若Cloudflare的SSL设置为灵活，则服务器命令为：
+若Cloudflare域名SSL为灵活，则服务器执行：
 ```
 ./xtunnel -l ws://80
 ```
