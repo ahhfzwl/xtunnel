@@ -14,5 +14,5 @@ x-tunnel -l socks5://:1080 -f wss://x-tunnel.dynv6.net -ip 162.159.38.255
 ```
 测试延迟：
 ```
-curl -x socks5h://127.0.0.1:1080 ai.com/cdn-cgi/trace -w time=%{time_total}
+curl -x socks5h://127.0.0.1:1080 speed.cloudflare.com/cdn-cgi/trace -w time=%{time_total}
 ```
